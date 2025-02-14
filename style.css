@@ -9,22 +9,32 @@
 body {
     line-height: 1.6;
     color: #333;
+    font-weight: 3000px;
 }
 
 .container {
-    color: rgb(20, 6, 223);
+    
+    color: rgb(44, 57, 245);
     width: 80%;
     margin: auto;
     text-align: center;
+    flex-wrap: wrap;
     
 }
 
 
+
+
 header {
-    background: #6e0365;
+    background-color: purple;
     color: rgb(4, 156, 29);
     padding: 20px;
     position: fixed top;
+    justify-items:fixed ;
+    border-radius: 10px;
+    border: 10px solid rgb(228, 5, 209);
+    position: sticky;
+    top: 0px;
 
 
     
@@ -107,6 +117,9 @@ section {
     display: flex;
     justify-content: center;
     gap: 20px;
+    background-color:blue;
+    padding: 25px;
+    border-radius: 20px;
 }
 
 .project {
@@ -118,7 +131,7 @@ section {
 
 .project img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 60px;
 }
 
 
